@@ -1,0 +1,13 @@
+-- Lets Creat a table in SQL.
+
+CREATE TABLE EmpolyeeDemographics
+	(EmployeeID int,
+	FirstName varchar(50),
+	LastName varchar(50),
+	Age int,
+	Gender varchar(50)
+  
+  --Next Lets insert data into the table
+
+INSERT INTO EmployeeDemographics VALUES
+(1001, 'Jim', 'Halpert', 30, 'Male')
